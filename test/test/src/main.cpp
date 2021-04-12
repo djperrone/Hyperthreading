@@ -16,7 +16,7 @@ int main()
 {
 	int numTasks = 16;
 	int numThreads = 4;
-	Timer timer("hyperthreading_test3.csv");
+	Timer timer("no_hyperthreading_test3.csv");
 
 	timer.WriteHeader();
 
